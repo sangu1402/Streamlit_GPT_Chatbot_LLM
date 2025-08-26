@@ -1,7 +1,7 @@
 # 💬 Streamlit GPT Chatbot
 
 A simple chatbot built with **Streamlit** and **OpenAI GPT**.
-
+Chatbot Link: https://firstchatbotllm.streamlit.app/
 ---
 
 ## 🚀 How to Run Locally
@@ -16,4 +16,5 @@ A simple chatbot built with **Streamlit** and **OpenAI GPT**.
    Create a .env file and add:
    OPENAI_API_KEY=sk-your_api_key_here
 4. Run the app:
+
    streamlit run chatbot_app.py
