@@ -2,13 +2,9 @@
 import streamlit as st
 import openai
 import os
-from dotenv import load_dotenv
-
-# Load environment variables from .env file (locally)
-load_dotenv()
 
 # Set OpenAI API key from environment variable
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = st.secrets("OPENAI_API_KEY")
 
 st.title("💬 GPT Chatbot")
 
