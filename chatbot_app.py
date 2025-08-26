@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # ⚠️ Temporary hardcoded API key — replace with your actual key
-openai.api_key = "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"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 st.title("💬 Chatbot App")
 
