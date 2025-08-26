@@ -1,10 +1,16 @@
+# chatbot_app.py
 import streamlit as st
 import openai
+import os
+from dotenv import load_dotenv
 
-# ⚠️ Temporary hardcoded API key — replace with your actual key
+# Load environment variables from .env file (locally)
+load_dotenv()
+
+# Set OpenAI API key from environment variable
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-st.title("💬 Chatbot App")
+st.title("💬 GPT Chatbot")
 
 # Initialize session state
 if "messages" not in st.session_state:
