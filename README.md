@@ -1,6 +1,7 @@
 # 💬 Streamlit GPT Chatbot
 
 A simple chatbot built with **Streamlit** and **OpenAI GPT**.
+
 Chatbot Link: https://firstchatbotllm.streamlit.app/
 ---
 
@@ -18,3 +19,4 @@ Chatbot Link: https://firstchatbotllm.streamlit.app/
 4. Run the app:
 
    streamlit run chatbot_app.py
+
