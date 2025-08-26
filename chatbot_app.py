@@ -4,7 +4,8 @@ import openai
 import os
 
 # Set OpenAI API key from environment variable
-openai.api_key = st.secrets(OPENAI_API_KEY)
+print(st.secrets[OPENAI_API_KEY])
+openai.api_key = st.secrets[OPENAI_API_KEY]
 
 st.title("💬 GPT Chatbot")
 
